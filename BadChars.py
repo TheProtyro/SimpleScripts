@@ -17,7 +17,7 @@ if args.file:
             if hex_char != badchars[i]:  # check if the hex char is bad or not
                 if first_bad_char_found == False: # first bad char ? if yes, it could break the execution flow and other bad chars will not be reliable
                     first_bad_char_found = True
-                    print("[+] First bad char found : " + hex_char)
+                    print("[+] First bad char found : " + badchars[i])
                 else:
                     print("[+] Possible other bad chars found : " + hex_char) # print other badchar for info
             
