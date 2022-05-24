@@ -16,4 +16,10 @@ python3 BadChars.py
 python3 BadChars.py -f stack_dump
 ```
 
+```
+Usage : ./AutoNmap.sh <IP address>
+```
 
+```
+Usage : ./Tmux.sh <session name (IP)>
+```
