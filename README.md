@@ -23,3 +23,12 @@ Usage : ./AutoNmap.sh <IP address>
 ```
 Usage : ./Tmux.sh <session name (IP)>
 ```
+
+```
+.\WinPost.bat
+```
+
+```
+python3 BinFinder.py -h
+python3 BinFinder.py -f suid_file
+```
