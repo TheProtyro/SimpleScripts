@@ -7,7 +7,7 @@ systeminfo
 echo.
 echo [+] Volumes
 echo.
-mountvol
+mountvol | find "\"
 echo.
 echo [+] Shares
 echo.
